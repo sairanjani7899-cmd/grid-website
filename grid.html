@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Loader</title>
+
+<style>
+
+.container{
+    display:grid;
+    grid-template-columns: 20px 20px;
+    grid-template-rows: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container div{
+    width:10px;
+    height:10px;
+    background:blue;
+    animation: blink 1s infinite;
+    justify-content: center;
+    align-items: center;
+}
+        @keyframes blink{
+      50%{
+        opacity:0.3;
+    }
+
+        }
+        
+</style>
+</head>
+
+<body>
+    <h1
+
+<div class="container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+</body>
